@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/16",
+    "value": {
+      "item": "pat_cheese2"
+    }
+  }
+]

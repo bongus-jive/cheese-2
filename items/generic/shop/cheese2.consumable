@@ -1,0 +1,9 @@
+{
+  "itemName" : "pat_cheese2",
+  "rarity" : "Common",
+  "inventoryIcon" : "cheese.png",
+  "description" : "A second wedge of cheese.",
+  "shortdescription" : "Cheese 2",
+	
+  "builder" : "/items/generic/shop/buildcheese2.lua"
+}
