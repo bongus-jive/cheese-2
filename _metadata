@@ -1,12 +1,12 @@
 {
-  "version" : "1.0",
+  "version" : "1.1",
   "author" : "patman",
   "tags" : "Miscellaneous|Food and Farming",
-  "description" : "it adds cheese again\n\nbuy at infinity express or craft with 1 milk (just like regular cheese because it is literally the same thing)\n\nalso works with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1640983416]cheese and milk vending machines[/url] (its only at the cheese one the milk one does not have cheese that would be weird i think)\n\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
+  "description" : "it adds cheese again\n\nbuy at infinity express or craft with 1 milk (just like regular cheese because it is literally the same thing)\n\nalso works with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1640983416]cheese and milk vending machines[/url] (its only at the cheese one the milk one does not have cheese that would be weird i think)\nalso adds a cheese 2 button to quickbar if you have my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2499868784]funny quickbar stuff[/url]\n\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
   "name" : "addcheeseagain",
   "friendlyName" : "add cheese again",
   "priority" : -9998,
   "steamContentId" : "2403974998",
   "link" : "steam://url/CommunityFilePage/2403974998",
-  "includes" : ["cheeseandmilk"]
+  "includes" : ["cheeseandmilk", "pat_quickbarstuff"]
 }

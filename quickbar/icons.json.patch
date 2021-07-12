@@ -1,0 +1,17 @@
+[
+	[
+		{
+			"op": "test",
+			"path": "/items/patman:freecheese"
+		},
+		{
+			"op": "add",
+			"path": "/items/patman:freecheese2",
+			"value": {
+				"label": "free cheese 2",
+				"icon": "/quickbar/pat/cheese2.png",
+				"action": [ "exec", "/quickbar/pat/cheese.lua", "pat_cheese2" ]
+			}
+		}
+	]
+]
