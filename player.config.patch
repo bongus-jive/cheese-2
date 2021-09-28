@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/companionsConfig/scripts/-",
+    "path": "/genericScriptContexts/cheese2",
     "value": "/items/generic/shop/cheese2.lua"
   }
 ]
