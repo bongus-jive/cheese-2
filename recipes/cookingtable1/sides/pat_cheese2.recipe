@@ -6,5 +6,6 @@
 		"description" : "A second wedge of cheese.",
 		"shortdescription" : "Cheese 2"
 	}},
-  "groups" : [ "craftingfood", "sides" ]
+  "groups" : [ "craftingfood", "sides" ],
+  "collectables" : { "cooking" : "pat_cheese2" }
 }
