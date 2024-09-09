@@ -1,7 +1,7 @@
 --this is stupid but ooga booga game sucks
 
 function init()
-	local cheese2 = root.assetJson("/recipes/cookingtable1/sides/pat_cheese2.recipe:output")
+	local cheese2 = root.assetJson("/pat/cheese2/cheese2.recipe:output")
 
 	if player.blueprintKnown(cheese2) then
 		return script.setUpdateDelta(0)

@@ -2,6 +2,6 @@
   {
     "op": "add",
     "path": "/genericScriptContexts/cheese2",
-    "value": "/items/generic/shop/cheese2.lua"
+    "value": "/pat/cheese2/player.lua"
   }
 ]
