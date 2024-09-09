@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/cheesemerchant/0/1/-",
+    "value": { "item": { "name": "pat_cheese2" } }
+  }
+]
