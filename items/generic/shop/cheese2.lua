@@ -1,21 +1,20 @@
 --this is stupid but ooga booga game sucks
 
-local cheese2 = {name = "cheese", parameters = {
-	description = "A second wedge of cheese.",
-	shortdescription = "Cheese 2"
-}}
-
 function init()
-	knowsCheese = player.blueprintKnown(cheese2)
-	script.setUpdateDelta(knowsCheese and 0 or 10)
-end
+	local cheese2 = root.assetJson("/recipes/cookingtable1/sides/pat_cheese2.recipe:output")
 
-function update(dt)
-	if not knowsCheese then
-		if player.blueprintKnown{name = "cheese"} then
+	if player.blueprintKnown(cheese2) then
+		return script.setUpdateDelta(0)
+	end
+
+	script.setUpdateDelta(100)
+
+	function update()
+		if player.blueprintKnown("cheese") then
+			chat.addMessage("cheese 2")
 			player.giveBlueprint(cheese2)
 			script.setUpdateDelta(0)
-			knowsCheese = true
+			update = nil
 		end
 	end
 end

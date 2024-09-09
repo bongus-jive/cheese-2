@@ -5,7 +5,6 @@
   "description" : "it adds cheese again\n\nbuy at infinity express or craft with 1 milk (just like regular cheese because it is literally the same thing)\n\nalso works with [u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1640983416]cheese and milk vending machines[/url][/u] (its only at the cheese one the milk one does not have cheese that would be weird i think)\nalso adds a cheese 2 button to quickbar if you have my [u][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962262591]funny quickbar cheese[/url][/u]\n\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
   "name" : "addcheeseagain",
   "friendlyName" : "add cheese again",
-  "priority" : -1000,
   "steamContentId" : "2403974998",
   "link" : "steam://url/CommunityFilePage/2403974998",
   "includes" : ["cheeseandmilk", "pat_cheesebar"]
